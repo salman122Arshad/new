@@ -597,7 +597,7 @@ const Dashboard: React.FC = () => {
                                     data-handle="captions"
                                     style={{ pointerEvents: "auto" }}
                                   >
-                                    <nothing />
+                                    {/* <nothing /> */}
                                   </div>
                                   <div
                                     className="w-css-reset"
