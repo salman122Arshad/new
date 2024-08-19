@@ -460,7 +460,7 @@ const Dashboard: React.FC = () => {
                                           viewBox="0 0 125 80"
                                           enableBackground="new 0 0 125 80"
                                           aria-hidden="true"
-                                          alt=""
+                                          // alt=""
                                           style={{
                                             fill: "rgb(255, 255, 255)",
                                             height: "72.8875px",
