@@ -32,7 +32,7 @@ const Calendar: React.FC = () => {
         <button
           type="button"
           title="This month"
-          disabled=""
+          // disabled=""
           aria-pressed="false"
           className="fc-today-button fc-button fc-button-primary"
         >
