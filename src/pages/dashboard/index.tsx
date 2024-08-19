@@ -211,7 +211,7 @@ const Dashboard: React.FC = () => {
                             aria-label="Video"
                             src="blob:https://bizgen.io/1fbd10bb-ce68-4778-8c2e-da54e5ac4c60"
                             controlslist="nodownload"
-                            playsInline=""
+                            // playsInline=""
                             preload="metadata"
                             type="video/m3u8"
                             x-webkit-airplay="allow"
