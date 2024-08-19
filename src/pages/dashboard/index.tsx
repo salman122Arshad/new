@@ -926,120 +926,117 @@ const Dashboard: React.FC = () => {
                                             position: "relative"
                                           }}
                                         >
-                                          {/* <div
-                                            aria-label="Playbar"
-                                            aria-orientation="horizontal"
-                                            aria-valuemax="156.138"
-                                            aria-valuemin={0}
-                                            aria-valuenow={0}
-                                            aria-valuetext="0 seconds"
-                                            role="slider"
-                                            tabIndex={0}
-                                            style={{
-                                              cursor: "pointer",
-                                              flex: "1 1 0%",
-                                              height: 31,
-                                              outline: "none",
-                                              marginLeft: "9.11094px",
-                                              marginRight: "9.11094px",
-                                              position: "relative"
-                                            }}
-                                          >
-                                            <canvas
-                                              height="29.0625"
-                                              width="482.15184004934207"
-                                              style={{
-                                                height: 31,
-                                                left: "-9.11094px",
-                                                position: "absolute",
-                                                top: 0,
-                                                width: "514.295px"
-                                              }}
-                                            />
-                                            <div
-                                              style={{
-                                                borderRadius: "50%",
-                                                height: "10.2043px",
-                                                left: "-5.10213px",
-                                                opacity: 0,
-                                                position: "absolute",
-                                                top: "10.3979px",
-                                                width: "10.2043px"
-                                              }}
-                                            />
-                                            <div
-                                              className="w-storyboard-anchor"
-                                              style={{
-                                                height: 0,
-                                                left: 0,
-                                                position: "absolute",
-                                                top: 0,
-                                                width: "100%"
-                                              }}
-                                            >
-                                              <div
-                                                className="w-storyboard"
-                                                style={{
-                                                  bottom: 0,
-                                                  height: "77.0917px",
-                                                  left: 356,
-                                                  opacity: 0,
-                                                  overflow: "hidden",
-                                                  pointerEvents: "none",
-                                                  position: "absolute",
-                                                  transition:
-                                                    "opacity 150ms, transform 1000ms cubic-bezier(0, 0.8, 0, 1)",
-                                                  transform: "scale(0.83)",
-                                                  transformOrigin:
-                                                    "center bottom",
-                                                  width: "136.445px"
-                                                }}
-                                              >
-                                                <img
-                                                  src="https://embed-ssl.wistia.com/deliveries/4ee29d85d1458b02737960f13e0ad4af80ab53e9.bin"
-                                                  className="w-css-reset-max-width-none-important"
-                                                  alt=""
-                                                  style={{
-                                                    height: "1541.83px",
-                                                    left: "-136.445px",
-                                                    position: "absolute",
-                                                    top: "-1310.56px",
-                                                    verticalAlign: "top",
-                                                    width: "1364.45px"
-                                                  }}
-                                                />
-                                                <div
-                                                  className="w-storyboard-time"
-                                                  style={{
-                                                    bottom: "0.5em",
-                                                    color: "rgb(255, 255, 255)",
-                                                    display: "inline-block",
-                                                    fontFamily:
-                                                      "WistiaPlayerInterNumbersSemiBold, Helvetica, sans-serif",
-                                                    fontSize: "11.8442px",
-                                                    left: 0,
-                                                    lineHeight: "30.9772px",
-                                                    position: "absolute",
-                                                    textAlign: "center",
-                                                    width: "100%"
-                                                  }}
-                                                >
-                                                  <span
+                                                  <div
+                                                    aria-label="Playbar"
+                                                    aria-orientation="horizontal"
+                                                    aria-valuemax={156.138}  // Changed to a number
+                                                    aria-valuemin={0}
+                                                    aria-valuenow={0}
+                                                    aria-valuetext="0 seconds"
+                                                    role="slider"
+                                                    tabIndex={0}
                                                     style={{
-                                                      background:
-                                                        "rgba(0, 0, 0, 0.7)",
-                                                      borderRadius: "2.73328px",
-                                                      display: "inline-block",
-                                                      lineHeight: "1em",
-                                                      padding: "5.46656px"
+                                                      cursor: "pointer",
+                                                      flex: "1 1 0%",
+                                                      height: 31,
+                                                      outline: "none",
+                                                      marginLeft: "9.11094px",
+                                                      marginRight: "9.11094px",
+                                                      position: "relative"
                                                     }}
                                                   >
-                                                    2:14
-                                                  </span>
-                                                </div>
-                                              </div>
-                                            </div>
-                                          </div> */}
+                                                    <canvas
+                                                      height="29.0625"
+                                                      width="482.15184004934207"
+                                                      style={{
+                                                        height: 31,
+                                                        left: "-9.11094px",
+                                                        position: "absolute",
+                                                        top: 0,
+                                                        width: "514.295px"
+                                                      }}
+                                                    />
+                                                    <div
+                                                      style={{
+                                                        borderRadius: "50%",
+                                                        height: "10.2043px",
+                                                        left: "-5.10213px",
+                                                        opacity: 0,
+                                                        position: "absolute",
+                                                        top: "10.3979px",
+                                                        width: "10.2043px"
+                                                      }}
+                                                    />
+                                                    <div
+                                                      className="w-storyboard-anchor"
+                                                      style={{
+                                                        height: 0,
+                                                        left: 0,
+                                                        position: "absolute",
+                                                        top: 0,
+                                                        width: "100%"
+                                                      }}
+                                                    >
+                                                      <div
+                                                        className="w-storyboard"
+                                                        style={{
+                                                          bottom: 0,
+                                                          height: "77.0917px",
+                                                          left: 356,
+                                                          opacity: 0,
+                                                          overflow: "hidden",
+                                                          pointerEvents: "none",
+                                                          position: "absolute",
+                                                          transition: "opacity 150ms, transform 1000ms cubic-bezier(0, 0.8, 0, 1)",
+                                                          transform: "scale(0.83)",
+                                                          transformOrigin: "center bottom",
+                                                          width: "136.445px"
+                                                        }}
+                                                      >
+                                                        <img
+                                                          src="https://embed-ssl.wistia.com/deliveries/4ee29d85d1458b02737960f13e0ad4af80ab53e9.bin"
+                                                          className="w-css-reset-max-width-none-important"
+                                                          alt=""
+                                                          style={{
+                                                            height: "1541.83px",
+                                                            left: "-136.445px",
+                                                            position: "absolute",
+                                                            top: "-1310.56px",
+                                                            verticalAlign: "top",
+                                                            width: "1364.45px"
+                                                          }}
+                                                        />
+                                                        <div
+                                                          className="w-storyboard-time"
+                                                          style={{
+                                                            bottom: "0.5em",
+                                                            color: "rgb(255, 255, 255)",
+                                                            display: "inline-block",
+                                                            fontFamily: "WistiaPlayerInterNumbersSemiBold, Helvetica, sans-serif",
+                                                            fontSize: "11.8442px",
+                                                            left: 0,
+                                                            lineHeight: "30.9772px",
+                                                            position: "absolute",
+                                                            textAlign: "center",
+                                                            width: "100%"
+                                                          }}
+                                                        >
+                                                          <span
+                                                            style={{
+                                                              background: "rgba(0, 0, 0, 0.7)",
+                                                              borderRadius: "2.73328px",
+                                                              display: "inline-block",
+                                                              lineHeight: "1em",
+                                                              padding: "5.46656px"
+                                                            }}
+                                                          >
+                                                            2:14
+                                                          </span>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+
                                         </div>
                                       </div>
                                     </div>
