@@ -52,7 +52,7 @@ const StepThree: FC = () => {
               alt=""
             />
             <p className="gradient-text-1 text-2xl font-aeonik font-bold">
-              {"Create Your Perfect Avatar! It's Free"}
+              {"Create Your Perfect Avatar! Its Free"}
             </p>
           </div>
           <button className="relative overflow-hidden rounded-[10px] text-white text-xl leading-xl font-bold font-jakarta py-3 px-9 group">
@@ -121,7 +121,7 @@ export default StepThree;
 const content = `<div class="content-box">
 <h2>
   Based on the overview of your business, we recommend the following profile
-  that aligns well with your company's identity and objectives.
+  that aligns well with your companys identity and objectives.
 </h2>
 <h5>Business Description for Your Clothing Business <br/><br/></h5>
 <p>

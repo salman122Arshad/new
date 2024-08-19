@@ -1,7 +1,7 @@
 // eslint-disable-next-line react/no-unescaped-entities
-import React, { useState } from 'react';
-import Layout from '../../components/Layout/index';
-import Link from 'next/link';
+import React, { useState } from "react";
+import Layout from "../../components/Layout/index";
+import Link from "next/link";
 
 const Dashboard: React.FC = () => {
     const [isCollapsed, setIsCollapsed] = useState(false);
@@ -1915,7 +1915,7 @@ const Dashboard: React.FC = () => {
             Youtube Script Wizard
           </h5>
           <p className="font-jakarta text-md xl:text-l leading-md xl:leading-l text-primary-700">
-            Generate detailed script outlines that align with the user's
+            Generate detailed script outlines that align with the users
             business goals and speak directly to their ideal client avatar.
           </p>
           <a className="inline-block" href="/services/youtube_script">

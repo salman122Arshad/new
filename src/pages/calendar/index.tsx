@@ -1,11 +1,11 @@
 // pages/calendar.tsx
 // eslint-disable-next-line react/no-unescaped-entities
-import React, { useState } from 'react';
-import Layout from '../../components/Layout/index';
+import React, { useState } from "react";
+import Layout from "../../components/Layout/index";
 
 
 const Calendar: React.FC = () => {
-  const [view, setView] = useState<'month' | 'week'>('month');
+  const [view, setView] = useState<"month" | "week">("month");
 
   return (
     <Layout signed>

@@ -21,7 +21,7 @@ const StepTwo: FC = () => {
           Lets Create your Business Overview Together!
         </p>
         <h2 className="text-[40px] leading-[1.5] font-bold tracking-[-0.8px] max-w-[635px] my-6 text-black font-aeonik">
-          {"Share Your Business's Tale and "}
+          {"Share Your Business Tale and "}
           <span className="gradient-text-1">Amp Up Your Brand!</span>
         </h2>
         <p className="font-jakarta font-bold text-primary-700">

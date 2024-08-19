@@ -27,7 +27,7 @@ export default function index() {
         <div className="mt-9 max-w-[700px] mx-auto">
           <div className="px-4 lg:px-10 xl:px-[67px]">
             <h1 className="text-h5 md:text-h4 lg:text-h2 leading-h5 md:leading-h4 lg:leading-h2 font-aeonik gradient-text-1 font-bold">
-              Let{"'"}s get you set up
+              Lets get you set up
             </h1>
             <p className="font-jakarta font-semibold text-sm md:text-md lg:text-xl leading-md lg:leading-xl text-primary-700 mt-3">
               If your team is already using Casual, sign in here.
@@ -109,7 +109,7 @@ export default function index() {
             </div>
             <div className="flex justify-between items-center mt-10 flex-col gap-2 lg:flex-row pb-10">
               <div className="flex items-center gap-3 text-sm md:text-l xl:text-xl leading-l xl:leading-xl font-jakarta">
-                Dont{"'"}t have an account?{" "}
+                Dont have an account?{" "}
                 <Link
                   href="/register"
                   className="text-primary-300 underline font-semibold font-jakarta"

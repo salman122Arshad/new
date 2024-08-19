@@ -80,7 +80,7 @@ export default function index() {
             </div>
             <div className="flex justify-between items-center mt-10 flex-col gap-2 lg:flex-row pb-10">
               <div className="flex items-center gap-3 text-sm md:text-l xl:text-xl leading-l xl:leading-xl font-jakarta">
-                Dont{"'"}t have an account?{" "}
+                Dont have an account?{" "}
                 <Link
                   href="/register"
                   className="text-primary-300 underline font-semibold font-jakarta"

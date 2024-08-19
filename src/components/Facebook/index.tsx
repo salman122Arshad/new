@@ -252,7 +252,7 @@ export default function FacebookPage() {
                 </div>
                 <p className="text-primary-700 text-l leading-l font-semibold font-jakarta text-center max-w-[620px] mt-7 px-10">
                   {`Create your perfect Facebook ad quickly: just enter your details,
-            pick your style, and click 'Generate Campaign' to get started right
+            pick your style, and click Generate Campaign to get started right
             away!`}
                 </p>
               </div>

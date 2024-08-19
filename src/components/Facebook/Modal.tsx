@@ -52,7 +52,7 @@ export const FacebookImageUploadModal: FC<FileUploadProps> = ({
           <div className="bg-[#C5E9FF] p-2 rounded-md">
             <ImageIconTwoTone />
           </div>
-          <h2 className="text-primary-200 font-aeonik font-medium text-h5 leading-h5 mt-2">{`Don't shy to standout!`}</h2>
+          <h2 className="text-primary-200 font-aeonik font-medium text-h5 leading-h5 mt-2">{`Dont shy to standout!`}</h2>
           <p className="text-l leading-l font-jakarta text-primary-100 text-center mt-1 px-10">
             Use images sized <span className="text-primary-300">1200x628</span>{" "}
             pixels ideally, minimum{" "}
@@ -125,7 +125,7 @@ export const GenerateImageModal = () => {
           <div className="bg-[#C5E9FF] p-2 rounded-md">
             <ImageIconTwoTone />
           </div>
-          <h2 className="text-primary-200 font-aeonik font-medium text-h5 leading-h5 mt-2">{`It's time to create like a magic!`}</h2>
+          <h2 className="text-primary-200 font-aeonik font-medium text-h5 leading-h5 mt-2">{`Its time to create like a magic!`}</h2>
           <p className="text-l leading-l font-jakarta text-primary-100 text-center mt-1 px-10">
             Use images sized <span className="text-primary-300">1200x628</span>{" "}
             pixels ideally, minimum{" "}
