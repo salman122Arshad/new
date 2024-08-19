@@ -926,7 +926,7 @@ const Dashboard: React.FC = () => {
                                             position: "relative"
                                           }}
                                         >
-                                          <div
+                                          {/* <div
                                             aria-label="Playbar"
                                             aria-orientation="horizontal"
                                             aria-valuemax="156.138"
@@ -1039,7 +1039,7 @@ const Dashboard: React.FC = () => {
                                                 </div>
                                               </div>
                                             </div>
-                                          </div>
+                                          </div> */}
                                         </div>
                                       </div>
                                     </div>
